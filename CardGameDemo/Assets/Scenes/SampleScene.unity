@@ -237,7 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0de50c41f04f6648be418ea31bf0a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eHP: {fileID: 0}
   cardPrefab: {fileID: 3848143138746974478, guid: dab5e9ac22c9e0646b1841ecb1843abc, type: 3}
 --- !u!1 &416142091
 GameObject:
@@ -491,15 +490,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7884216787665869535, guid: 3139a6579b0266a45925595552d3af54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16728
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 7884216787665869535, guid: 3139a6579b0266a45925595552d3af54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8514
+      value: -1.46
       objectReference: {fileID: 0}
     - target: {fileID: 7884216787665869535, guid: 3139a6579b0266a45925595552d3af54, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24221
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7884216787665869535, guid: 3139a6579b0266a45925595552d3af54, type: 3}
       propertyPath: m_LocalRotation.w

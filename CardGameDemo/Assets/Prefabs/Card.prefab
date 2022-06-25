@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5BF9\u654C\u4EBA\u9020\u6210\u4E00\u70B9\u4F24\u5BB3"
+  m_Text: "\u5BF9\u654C\u4EBA\u9020\u6210\u4E24\u70B9\u4F24\u5BB3"
 --- !u!1 &3848143137498272392
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,10 +195,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2, y: -103}
-  m_SizeDelta: {x: -749.6017, y: -203.6033}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 18, y: -103}
+  m_SizeDelta: {x: 112.398315, y: 116.3967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3848143138746974475
 CanvasRenderer:
@@ -360,7 +360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3848143139206674028}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1622643281019816607}
+        m_TargetAssemblyTypeName: CardButton, Assembly-CSharp
+        m_MethodName: ButtonGo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1622643281019816607
 MonoBehaviour:
   m_ObjectHideFlags: 0

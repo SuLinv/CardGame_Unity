@@ -41,25 +41,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
-     <Compile Include="Assets\Arts\AurynSky\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXLightFade.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
-     <Compile Include="Assets\Arts\AurynSky\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXRotation.cs" />
-     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
-     <Compile Include="Assets\Script\UIManager.cs" />
-     <Compile Include="Assets\Script\Card.cs" />
-     <Compile Include="Assets\Script\CardData.cs" />
      <Compile Include="Assets\Script\CardButton.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Arts\AurynSky\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\Script\UIManager.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Arts\AurynSky\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Script\Card.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
+     <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Script\CardData.cs" />
      <None Include="Assets\Arts\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
      <None Include="Assets\Arts\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STOutline.shader" />
@@ -314,23 +314,23 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>D:\Program Files\Editor\2021.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-     </Reference>
      <Reference Include="ICSharpCode.SharpZipLib">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Assets\Plugins\ExcelResolutionForUnity\ICSharpCode.SharpZipLib.dll</HintPath>
      </Reference>
      <Reference Include="Excel">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Assets\Plugins\ExcelResolutionForUnity\Excel.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="DOTween">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:\Program Files\Editor\2021.3.4f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
