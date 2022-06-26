@@ -372,6 +372,7 @@
 "Assets/Script/Card.cs"
 "Assets/Script/CardButton.cs"
 "Assets/Script/CardData.cs"
+"Assets/Script/EnemyAction.cs"
 "Assets/Script/UIManager.cs"
 -langversion:9.0
 

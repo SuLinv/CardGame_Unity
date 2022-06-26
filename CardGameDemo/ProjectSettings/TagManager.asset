@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CardString
   - EnemyHP
+  - PlayerHP
+  - PlayerCard
   layers:
   - Default
   - TransparentFX
