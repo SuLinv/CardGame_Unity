@@ -713,9 +713,6 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -730,6 +727,9 @@
      </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -757,6 +757,26 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniHumanoid.csproj">
+      <Project>{7b9baf10-d295-3508-1cd2-0c85448e6cc6}</Project>
+      <Name>UniHumanoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
+      <Project>{864d569d-3015-d84f-d9f6-747d2e085536}</Project>
+      <Name>VRMShaders.GLTF.IO.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.csproj">
+      <Project>{d434fa92-3aaf-70f0-43c8-aaac49cf6b69}</Project>
+      <Name>UniGLTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.Samples.ScreenSpace.csproj">
+      <Project>{1bb73329-9ef4-b7d4-7b25-337da02fb783}</Project>
+      <Name>UniGLTF.Samples.ScreenSpace</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRM.csproj">
+      <Project>{fe8943c9-f5c5-1689-129c-eccb783152eb}</Project>
+      <Name>VRM</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

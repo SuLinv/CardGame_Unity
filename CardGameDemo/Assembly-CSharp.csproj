@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\RuntimeBvhLoader.cs" />
      <Compile Include="Assets\Script\CardButton.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
@@ -52,6 +53,7 @@
      <Compile Include="Assets\Arts\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\Script\UIManager.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\HumanBuilderTest.cs" />
      <Compile Include="Assets\Arts\AurynSky\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
@@ -59,20 +61,33 @@
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
      <Compile Include="Assets\Arts\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
-     <Compile Include="Assets\Script\CardData.cs" />
      <Compile Include="Assets\Script\EnemyAction.cs" />
+     <Compile Include="Assets\Script\CardData.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Arts\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
      <None Include="Assets\Arts\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STOutline.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_vertex.hlsl" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_uv.hlsl" />
+     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\NormalMapExporter.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_mtoon.hlsl" />
+     <None Include="Assets\UniGLTF\package.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Arts\AurynSky\Dungeon Pack\READ ME.txt" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_vertex.hlsl" />
+     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapExporter.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
      <None Include="Assets\Arts\Epic Toon FX\ETFX Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
      <None Include="Assets\Arts\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STTransparent.shader" />
@@ -80,13 +95,19 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\VRMShaders\package.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\VRM\package.json" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STCore.cginc" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_utility.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Shaders\outline.shader" />
+     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STDefault.shader" />
+     <None Include="Assets\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Arts\Simple Toon\Shaders\STFunctions.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -94,6 +115,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Editor\2021.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -757,9 +779,6 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -774,6 +793,9 @@
      </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\UnityProjects\CardGame_Unity\CardGameDemo\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -804,6 +826,26 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{55baeca4-da87-d2e5-37e0-4abe726e9ba1}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniHumanoid.csproj">
+      <Project>{7b9baf10-d295-3508-1cd2-0c85448e6cc6}</Project>
+      <Name>UniHumanoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
+      <Project>{864d569d-3015-d84f-d9f6-747d2e085536}</Project>
+      <Name>VRMShaders.GLTF.IO.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.csproj">
+      <Project>{d434fa92-3aaf-70f0-43c8-aaac49cf6b69}</Project>
+      <Name>UniGLTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.Samples.ScreenSpace.csproj">
+      <Project>{1bb73329-9ef4-b7d4-7b25-337da02fb783}</Project>
+      <Name>UniGLTF.Samples.ScreenSpace</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRM.csproj">
+      <Project>{fe8943c9-f5c5-1689-129c-eccb783152eb}</Project>
+      <Name>VRM</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

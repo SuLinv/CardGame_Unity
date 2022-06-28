@@ -11,6 +11,8 @@ public class CardButton : MonoBehaviour
 
     // public Card buttonCard;
     public int cID;
+    public Animator enAnim;
+    public Animation pAnim;
     
     // Start is called before the first frame update
 
@@ -43,6 +45,16 @@ public class CardButton : MonoBehaviour
             enemyHP = enemyHP - 2;
             enemyHealth.text = enemyHP.ToString();
         }
+        Invoke("SettDeathAnim",0.4f);
+        transform.parent.gameObject.SetActive (false);
+        pAnim.CrossFade("attack1.pie_c_11_21");
+        pAnim.CrossFadeQueued("idle_01.pie_c_11_21");
+    }
+
+    void SettDeathAnim()
+    {
+        enAnim.SetTrigger("death");
         Destroy(transform.parent.gameObject);
     }
+    
 }

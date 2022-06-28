@@ -328,6 +328,9 @@
 -r:"D:/UnityProjects/CardGame_Unity/CardGameDemo/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"D:/UnityProjects/CardGame_Unity/CardGameDemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniGLTF.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniGLTF.Samples.ScreenSpace.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniHumanoid.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -354,6 +357,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VRM.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VRMShaders.GLTF.IO.Runtime.ref.dll"
 "Assets/Arts/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs"
 "Assets/Arts/AurynSky/Dungeon Pack/Scripts/TrapDoorDemo.cs"
 "Assets/Arts/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/ParticleEffectsLibrary.cs"
@@ -374,6 +379,8 @@
 "Assets/Script/CardData.cs"
 "Assets/Script/EnemyAction.cs"
 "Assets/Script/UIManager.cs"
+"Assets/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs"
+"Assets/UniGLTF/Samples/UniHumanoid/RuntimeBvhLoader.cs"
 -langversion:9.0
 
 /deterministic

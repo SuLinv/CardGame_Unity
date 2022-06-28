@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d65c53bc709738a45bb36c4229f58335
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: attack1.pie_c_11_21
+    second: {fileID: 7400000, guid: 932114a7490ebd047a6df263dbb3f139, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e7b4109e5cbfb0e4fa89e83e9b3ed88a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: idle_01.pie_c_11_21
+    second: {fileID: 7400000, guid: 9cb42e64f135e334e8b17a496afb2a16, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

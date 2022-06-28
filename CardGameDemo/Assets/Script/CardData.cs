@@ -10,6 +10,8 @@ public class CardData : MonoBehaviour
     public List<Card> cardList = new List<Card>();
     public GameObject cardPrefab;
     public int startCardNum = 5;
+    public Animator eAnim;
+    public Animation pAnim;
 
     private Random rd;
     // Start is called before the first frame update
@@ -40,6 +42,10 @@ public class CardData : MonoBehaviour
             Card c = cdInstance.cardList[cdInstance.rd.Next(0,cdInstance.cardList.Count)];
             temp.transform.GetComponentInChildren<Text>().text = c.cardStr;
             temp.transform.GetComponentInChildren<Button>().gameObject.GetComponent<CardButton>().cID = c.cardID;
+            temp.transform.GetComponentInChildren<Button>().gameObject.GetComponent<CardButton>().enAnim =
+                cdInstance.eAnim;
+            temp.transform.GetComponentInChildren<Button>().gameObject.GetComponent<CardButton>().pAnim =
+                cdInstance.pAnim;
             temp.tag = "PlayerCard";
             cdInstance.CardDisplay(temp,i);
         }
