@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5BF9\u654C\u4EBA\u9020\u6210\u4E00\u70B9\u4F24\u5BB3"
+  m_Text: "\u65A9\u94A2\u95EA\xB7\u4E09\u6BB5:\u5BF9\u6240\u6709\u654C\u4EBA\u9020\u6210\u4E24\u70B9\u4F24\u5BB3\uFF0C\u5E76\u51FB\u6655\u4E00\u56DE\u5408\uFF08\u65BD\u653E\u540E\u5E7B\u5316\u4E3A\u65A9\u94A2\u95EA\uFF09"
 --- !u!1 &3848143137498272392
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 0}
-  cID: 0
+  cID: 1
   enAnim: {fileID: 0}
   pAnim: {fileID: 0}

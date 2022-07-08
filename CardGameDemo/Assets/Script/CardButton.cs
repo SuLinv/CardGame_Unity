@@ -45,6 +45,7 @@ public class CardButton : MonoBehaviour
             enemyHP = enemyHP - 2;
             enemyHealth.text = enemyHP.ToString();
         }
+        CardData.AttackCardChange(cID);
         Invoke("SettDeathAnim",0.4f);
         transform.parent.gameObject.SetActive (false);
         pAnim.CrossFade("attack1.pie_c_11_21");
